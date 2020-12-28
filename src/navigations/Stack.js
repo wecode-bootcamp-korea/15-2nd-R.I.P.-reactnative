@@ -4,6 +4,7 @@ import Tabs from "./Tabs";
 import Login from "../screens/Login";
 import SignUpInput from "../screens/SignUpInput";
 import SignUpPage from "../screens/SignUpPage";
+import SignUpGetUserInfo from "../screens/SignUpGetUserInfo";
 import CheckEmail from "../screens/CheckEmail";
 import Loading from "../screens/Loading";
 import Daily from "../screens/Daily";
@@ -18,6 +19,7 @@ export default () => (
     <Stack.Screen name="Login" component={Login} />
     <Stack.Screen name="SignUpInput" component={SignUpInput} />
     <Stack.Screen name="SignUpPage" component={SignUpPage} />
+    <Stack.Screen name="SignUpGetUserInfo" component={SignUpGetUserInfo} />
     <Stack.Screen name="CheckEmail" component={CheckEmail} />
     <Stack.Screen name="Loading" component={Loading} />
     <Stack.Screen name="Daily" component={Daily} />
