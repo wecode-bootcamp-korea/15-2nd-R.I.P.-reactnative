@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "userPhotoUrl": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "username": "박**",
+      "pastTime": "38분전",
+      "feedPhotoUrl": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1327&q=80",
+      "reviewContent": "큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝 큐티 뽀짝",
+      "amountOfHearts": 5,
+      "amountOfComments": 7,
+      "className": "오우오우 고양이 길러보기 클래스"
+    },
+    {
+      "id": 2,
+      "userPhotoUrl": "https://images.unsplash.com/photo-1574158622682-e40e69881006?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8Y2F0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "username": "한**",
+      "pastTime": "1시간전",
+      "feedPhotoUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "reviewContent": "헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 헬스장 열어주세요 ",
+      "amountOfHearts": 98,
+      "amountOfComments": 12,
+      "className": "오우오우 갓준희와 함께 하는 헬창 수업... 그와 함께라면 3대 500도 하루안에 너무 가능"
+    },
+    {
+      "id": 3,
+      "userPhotoUrl": "https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGNhdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "username": "박**",
+      "pastTime": "13시간전",
+      "feedPhotoUrl": "https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "reviewContent": "목데이터 만들기 힘드네요 하지만 언제나 사랑합니다 관희님 껄껄껄 목데이터 만들기 힘드네요 하지만 언제나 사랑합니다 관희님 껄껄껄 목데이터 만들기 힘드네요 하지만 언제나 사랑합니다 관희님 껄껄껄 ",
+      "amountOfHearts": 45,
+      "amountOfComments": 2,
+      "className": "목데이터... 너란 놈"
+    }
+  ]
+}
