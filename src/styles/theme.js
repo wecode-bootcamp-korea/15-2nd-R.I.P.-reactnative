@@ -5,6 +5,7 @@ const theme = {
   meetingBg: "#F3F2F7",
   jejuBg: "#F7F1F8",
   koreaBg: "#9FC0E5",
+  blueText: "#0574e6",
 };
 
 export default theme;

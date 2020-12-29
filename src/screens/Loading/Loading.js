@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components/native";
 import { ImageBackground } from "react-native";
+import styled from "styled-components/native";
 
 export default () => <Background source={image} />;
 
