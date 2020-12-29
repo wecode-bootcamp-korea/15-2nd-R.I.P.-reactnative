@@ -3,8 +3,8 @@ import { View, Text, Pressable } from "react-native";
 
 export default ({ navigation }) => (
   <View>
-    <Pressable onPress={() => navigation.navigate("DetailPage")}>
-      <Text>go to detail page</Text>
+    <Pressable onPress={() => navigation.navigate("Detail")}>
+      <Text>go to detail</Text>
     </Pressable>
     <Pressable onPress={() => navigation.navigate("Daily")}>
       <Text>go to Daily</Text>

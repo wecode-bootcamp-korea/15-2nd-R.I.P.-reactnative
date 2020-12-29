@@ -3,6 +3,6 @@ import { View, Text } from "react-native";
 
 export default () => (
   <View>
-    <Text>DetailPage</Text>
+    <Text>MyScreen</Text>
   </View>
 );
