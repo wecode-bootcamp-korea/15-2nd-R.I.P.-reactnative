@@ -1,8 +1,9 @@
 import React from "react";
 import { View, Text, Pressable } from "react-native";
+import styled from "styled-components/native";
 
 export default ({ navigation }) => (
-  <View>
+  <Section>
     <Pressable onPress={() => navigation.navigate("Detail")}>
       <Text>go to detail</Text>
     </Pressable>
@@ -12,5 +13,9 @@ export default ({ navigation }) => (
     <Pressable onPress={() => navigation.navigate("LocalTrip")}>
       <Text>go to LocalTrip</Text>
     </Pressable>
-  </View>
+  </Section>
 );
+
+const Section = styled.View`
+  background-color: ${(props) => props.theme.beautyBg};
+`;
