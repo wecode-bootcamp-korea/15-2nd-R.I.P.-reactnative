@@ -1,13 +1,22 @@
-import { StatusBar } from "expo-status-bar";
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React, { useState, useEffect } from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { createGlobalStyle, ThemeProvider } from "styled-components/native";
+import { ThemeProvider } from "styled-components/native";
 import Stack from "./src/navigations/Stack";
 import theme from "./src/styles/theme";
+import Loading from "./src/screens/Loading/Loading";
 
 export default function App() {
-  return (
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
+  return isLoading ? (
+    <Loading />
+  ) : (
     <ThemeProvider theme={theme}>
       <NavigationContainer>
         <Stack />
