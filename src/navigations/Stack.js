@@ -1,14 +1,14 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import Tabs from "./Tabs";
-import Login from "../screens/Login";
-import SignUp from "../screens/SignUp";
-import SignUpGetUserInfo from "../screens/SignUpGetUserInfo";
-import CheckEmail from "../screens/CheckEmail";
-import Loading from "../screens/Loading";
-import Daily from "../screens/Daily";
-import Detail from "../screens/Detail";
-import LocalTrip from "../screens/LocalTrip";
+import Login from "../screens/Login/Login";
+import SignUp from "../screens/SignUp/SignUp";
+import SignUpGetUserInfo from "../screens/SignUpGetUserInfo/SignUpGetUserInfo";
+import CheckEmail from "../screens/CheckEmail/CheckEmail";
+import Loading from "../screens/Loading/Loading";
+import Daily from "../screens/Daily/Daily";
+import Detail from "../screens/Detail/Detail";
+import LocalTrip from "../screens/LocalTrip/LocalTrip";
 
 const Stack = createStackNavigator();
 
