@@ -13,7 +13,7 @@ export default ({ navigation }) => {
   }, []);
 
   return (
-    <SafeAreaView>
+    <>
       <FeedHeader>
         <StyledText>프립피드</StyledText>
       </FeedHeader>
@@ -24,7 +24,7 @@ export default ({ navigation }) => {
           );
         })}
       </ScrollView>
-    </SafeAreaView>
+    </>
   );
 };
 
@@ -32,8 +32,6 @@ const FeedHeader = styled.View`
   height: 100px;
   border: 1px solid #eaecee;
 `;
-
-const StyledScrollView = styled.ScrollView``;
 
 const StyledText = styled.Text`
   padding-top: 56px;

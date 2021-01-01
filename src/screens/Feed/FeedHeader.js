@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Image } from "react-native";
 import { Feather } from "@expo/vector-icons";
 
 function FeedHeader(props) {
-  const { username, userPhotoUrl, pastTime } = props;
+  const { username, userPhotoUrl, pastTime, setIsReportModalActive } = props;
 
   return (
     <View style={styles.feedContainer}>
@@ -24,6 +24,9 @@ function FeedHeader(props) {
         name="more-vertical"
         size={24}
         color="black"
+        onPress={() => {
+          setIsReportModalActive(true);
+        }}
       />
     </View>
   );
