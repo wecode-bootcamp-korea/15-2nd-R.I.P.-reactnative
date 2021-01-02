@@ -1,0 +1,60 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "userImgUrl": "https://images.unsplash.com/photo-1532971731140-1d7cccc06c3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1048&q=80",
+      "userName": "박채훈",
+      "comment": "헐랭방구",
+      "time": "58",
+      "isLiked": false
+    },
+    {
+      "id": 2,
+      "userImgUrl": "https://images.unsplash.com/photo-1602580404312-82db1079069d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+      "userName": "한준희",
+      "comment": "그래서 헬스장 언제 열리냐구요 그래서 헬스장 언제 열리냐구요 그래서 헬스장 언제 열리냐구요",
+      "time": "42",
+      "isLiked": true
+    },
+    {
+      "id": 3,
+      "userImgUrl": "https://images.unsplash.com/photo-1542993774-53342ac416b3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "userName": "이현주",
+      "comment": "술 땡긴다",
+      "time": "36",
+      "isLiked": true
+    },
+    {
+      "id": 4,
+      "userImgUrl": "https://images.unsplash.com/photo-1472053092455-ee16a8b358b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "userName": "김규빈",
+      "comment": "???????",
+      "time": "27",
+      "isLiked": false
+    },
+    {
+      "id": 5,
+      "userImgUrl": "https://images.unsplash.com/photo-1568152950566-c1bf43f4ab28?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80",
+      "userName": "김영재",
+      "comment": "???????",
+      "time": "23",
+      "isLiked": false
+    },
+    {
+      "id": 6,
+      "userImgUrl": "https://images.unsplash.com/photo-1568198532231-afb7b87ebd66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "userName": "김원희",
+      "comment": "???????",
+      "time": "12",
+      "isLiked": false
+    },
+    {
+      "id": 7,
+      "userImgUrl": "https://images.unsplash.com/photo-1542993774-53342ac416b3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "userName": "이현주",
+      "comment": "세 명 갈고리 다 압수",
+      "time": "7",
+      "isLiked": false
+    }
+  ]
+}
