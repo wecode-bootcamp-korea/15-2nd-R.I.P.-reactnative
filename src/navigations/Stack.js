@@ -9,6 +9,7 @@ import Loading from "../screens/Loading/Loading";
 import Daily from "../screens/Daily/Daily";
 import Detail from "../screens/Detail/Detail";
 import LocalTrip from "../screens/LocalTrip/LocalTrip";
+import FeedCommentsModal from "../screens/FeedCommentsModal/FeedCommentsModal";
 
 const Stack = createStackNavigator();
 
@@ -23,5 +24,10 @@ export default () => (
     <Stack.Screen name="Daily" component={Daily} />
     <Stack.Screen name="LocalTrip" component={LocalTrip} />
     <Stack.Screen name="Detail" component={Detail} />
+    <Stack.Screen
+      mode="modal"
+      name="FeedCommentsModal"
+      component={FeedCommentsModal}
+    />
   </Stack.Navigator>
 );
