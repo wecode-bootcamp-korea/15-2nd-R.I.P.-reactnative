@@ -3,7 +3,7 @@ import { View, Text, Alert } from "react-native";
 import styled from "styled-components/native";
 import SignUpInput from "../SignUpGetUserInfo/components/SignUpInput";
 import SignUpBtn from "../SignUpGetUserInfo/components/SignUpBtn";
-import { WIDTH, HEIGHT } from "../../../src/constants/layout";
+import { WIDTH, HEIGHT } from "../../constants/layout";
 import SignUpHeader from "../SignUpGetUserInfo/components/SignUpHeader";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { LOGIN } from "../../../src/config";

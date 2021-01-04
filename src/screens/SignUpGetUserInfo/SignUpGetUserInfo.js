@@ -4,7 +4,7 @@ import styled from "styled-components/native";
 import SignUpHeader from "./components/SignUpHeader";
 import SignUpInput from "./components/SignUpInput";
 import SignUpBtn from "./components/SignUpBtn";
-import { WIDTH } from "../../../src/constants/layout";
+import { WIDTH } from "../../constants/layout";
 import CountDown from "react-native-countdown-component";
 import {
   SEND_AUTH_NUMBER,

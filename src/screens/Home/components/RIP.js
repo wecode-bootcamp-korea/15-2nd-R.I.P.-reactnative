@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components/native";
 import { View, Text, Image, Dimensions } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { HEIGHT, WIDTH } from "../../../constants/Layout";
+import { HEIGHT, WIDTH } from "../../../constants/layout";
 import RIPList from "./RIPList";
 
 const mostFavoriteRIP = require("../../../data/mostFavoriteRIP.json");

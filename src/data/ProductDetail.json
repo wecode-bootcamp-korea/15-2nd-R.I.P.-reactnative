@@ -1,0 +1,66 @@
+{
+  "product_detail": [
+    {
+      "product_images": [
+        "https://images.unsplash.com/photo-1609645918655-65c52395f976?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+        "https://images.unsplash.com/photo-1609643660472-3d46c7ed6875?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80",
+        "https://images.unsplash.com/photo-1609670514643-b6217a80d15e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=636&q=80"
+      ],
+      "is_delivery_available": false,
+      "category": "아트",
+      "product_name": "귀염뽀짝 고냥이 그려보기 클래스",
+      "price": 12800,
+      "discount_rate": "0.55",
+      "expiration_date": 8,
+      "number_of_booked": 7,
+      "frip_grade": "4.5",
+      "host_name": "김원희",
+      "host_profile_imgUrl": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80",
+      "number_of_posting": 17,
+      "total_number_of_likes": 13,
+      "host_introduction": "안녕하세요! 컬러/이미지 컨설턴트 김원희입니다:)",
+      "user_profile_imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAbciZc6HcKqWR6N03VFwztbAqPQkuxPXNQ&usqp=CAU",
+      "username": "박채훈",
+      "user_grade": 4.5,
+      "written_date": "2020년 12월 25일 18:03",
+      "bulletin_content": "제가 원래,, 이런 리뷰를 길게 쓰는 스타일이 아닌데 ㅠ_ㅠ 넘넘 감사해서 씁니당 !!!!! 중요한 결과발표를 앞두고 자꾸 마음이 심란해서 친구가 그림 원데이 클래스가 진짜 머리 비우는데? 좋다고 해서 가게 됐는데, 넘 좋았어요 !!!!!!!! 교환학생 당시 직접 찍은 사진 그리고 싶어가지구,, 꽤 복잡하지만 도전했는데,, 선생님이 심폐소생술 ㅋㅋㅋㅋ 시켜주셔서 일케 좋은 작품 들고 갑니다",
+      "review_images": [
+        {
+          "id": 1,
+          "review_image": "https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1415&q=80"
+        },
+        {
+          "id": 2,
+          "review_image": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80"
+        },
+        {
+          "id": 3,
+          "review_image": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 4,
+          "review_image": "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80"
+        },
+        {
+          "id": 5,
+          "review_image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 6,
+          "review_image": "https://images.unsplash.com/photo-1554188248-986adbb73be4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        }
+      ],
+      "context_img": [
+        {
+          "id": 1,
+          "review_image": "https://images.unsplash.com/photo-1559740983-b9c5ffbac1ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"
+        },
+        {
+          "id": 1,
+          "review_image": "https://images.unsplash.com/photo-1553523292-1140e57d4f87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        }
+      ],
+      "context_text": "서핑 서핑 서핑 서핑 서핑 서핑 서핑 서핑 서핑 서핑 서핑 서핑 서핑 "
+    }
+  ]
+}

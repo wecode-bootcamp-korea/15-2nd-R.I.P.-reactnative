@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Image } from "react-native";
 import styled from "styled-components/native";
 
 function FeedImgText(props) {
-  const { feedPhotoUrl, reviewContent, className, navigation } = props;
+  const { id, feedPhotoUrl, reviewContent, className, navigation } = props;
 
   return (
     <View>
@@ -12,7 +12,7 @@ function FeedImgText(props) {
           uri: feedPhotoUrl,
         }}
       />
-      <LinkToDetail onPress={() => navigation.navigate("Detail")}>
+      <LinkToDetail onPress={() => navigation.navigate("Detail", { item: id })}>
         <StyledText numberOfLines={1}>{className}</StyledText>
       </LinkToDetail>
       <TextContainer>

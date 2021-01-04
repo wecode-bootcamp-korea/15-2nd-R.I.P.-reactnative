@@ -2,7 +2,7 @@ import React from "react";
 import { Dimensions, View, Text, Image } from "react-native";
 import styled from "styled-components/native";
 import Swiper from "react-native-web-swiper";
-import { HEIGHT } from "../../../constants/Layout";
+import { HEIGHT } from "../../../constants/layout";
 
 const silderImg = require("../../../data/SilderImg.json");
 
