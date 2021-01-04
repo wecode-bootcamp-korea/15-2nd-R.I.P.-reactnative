@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/native";
 import { View, Text, Image, Dimensions, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { HEIGHT, WIDTH } from "../../../constants/Layout";
+import { HEIGHT, WIDTH } from "../../../constants/layout";
 
 const RIPList = ({
   address,

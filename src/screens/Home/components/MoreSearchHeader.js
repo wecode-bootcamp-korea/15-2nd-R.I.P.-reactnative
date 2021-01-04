@@ -1,7 +1,7 @@
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 import styled from "styled-components/native";
-import { WIDTH, HEIGHT } from "../../../constants/Layout";
+import { WIDTH, HEIGHT } from "../../../constants/layout";
 
 const MoreSearchHeader = ({ navigation, setfilterInput, searchAcivity }) => {
   const handleBackbtn = () => {

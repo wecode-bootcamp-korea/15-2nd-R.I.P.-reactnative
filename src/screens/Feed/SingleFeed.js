@@ -8,7 +8,6 @@ import {
   TouchableWithoutFeedback,
 } from "react-native";
 import styled from "styled-components/native";
-
 import { AntDesign } from "@expo/vector-icons";
 import FeedHeader from "./FeedHeader";
 import FeedImgText from "./FeedImgText";
@@ -16,6 +15,7 @@ import HeartAndComments from "./HeartAndComments";
 
 export default (props) => {
   const {
+    id,
     userPhotoUrl,
     username,
     pastTime,
@@ -81,7 +81,7 @@ export default (props) => {
         setIsReportModalActive={setIsReportModalActive}
       />
       <FeedImgText
-        style={styles.ImgText}
+        id={id}
         feedPhotoUrl={feedPhotoUrl}
         reviewContent={reviewContent}
         className={className}

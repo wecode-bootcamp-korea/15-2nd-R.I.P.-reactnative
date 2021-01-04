@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cb30b81-c0a2-4ae4-a6e2-77e6b9d3933e" name="Default Changelist" comment="" />
+    <list default="true" id="7cb30b81-c0a2-4ae4-a6e2-77e6b9d3933e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +36,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="21" y="65" width="1200" height="800" key="AVDManager" timestamp="1609726892208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="21" y="65" width="1200" height="800" key="AVDManager/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609726892208" />
+=======
+    <state x="21" y="65" width="1200" height="800" key="AVDManager" timestamp="1609783742682">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="21" y="65" width="1200" height="800" key="AVDManager/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609783742682" />
+>>>>>>> 789c669 (Detail 레이아웃 완성, share 사용)
     <state x="279" y="210" key="SettingsEditor" timestamp="1609336012011">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

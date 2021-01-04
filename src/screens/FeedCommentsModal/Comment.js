@@ -3,18 +3,16 @@ import { Text, View, Pressable, StyleSheet, Image } from "react-native";
 import styled from "styled-components/native";
 import { AntDesign } from "@expo/vector-icons";
 
-function Comment(props) {
-  const {
-    comments,
-    setComments,
-    id,
-    userImgUrl,
-    userName,
-    comment,
-    time,
-    isLiked,
-  } = props;
-
+function Comment({
+  comments,
+  setComments,
+  id,
+  userImgUrl,
+  userName,
+  comment,
+  time,
+  isLiked,
+}) {
   const changeIsLiked = () => {
     const fakeComments = [...comments];
 
