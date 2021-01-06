@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, View, StyleSheet, Image } from "react-native";
 import { Feather } from "@expo/vector-icons";
+import { timeForToday } from "../../constants/RealTime";
 
 function FeedHeader(props) {
   const { username, userPhotoUrl, pastTime, setIsReportModalActive } = props;
@@ -16,7 +17,7 @@ function FeedHeader(props) {
         />
         <View>
           <Text>{username}</Text>
-          <Text>{pastTime}</Text>
+          <Text>{timeForToday(pastTime)}</Text>
         </View>
       </View>
       <Feather

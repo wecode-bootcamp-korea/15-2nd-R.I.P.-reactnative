@@ -7,3 +7,4 @@ export const GET_SUFING_DATA = `${API}/product/list?order=-price&category=8&offs
 export const GET_MAIN_DATA = (order, category, offset, limit) => {
   return `${API}/product/list?order=${order}&category=${category}&offset=${offset}&limit=${limit}`;
 };
+export const HJ_Feed_API = "http://10.168.2.91:8000/board/feed_list";

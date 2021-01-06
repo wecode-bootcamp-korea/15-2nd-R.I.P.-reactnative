@@ -3,8 +3,7 @@ import { Text, ScrollView, View, RefreshControl } from "react-native";
 import styled from "styled-components/native";
 import Constants from "expo-constants";
 import SingleFeed from "./SingleFeed";
-
-const jsonFile = require("../../data/data.json");
+import { HJ_Feed_API } from "../../config";
 
 const wait = (timeout) => {
   return new Promise((resolve) => {
@@ -14,7 +13,7 @@ const wait = (timeout) => {
 
 export default ({ navigation }) => {
   const [feedInfos, setFeedInfos] = useState([]);
-  const [refreshing, setRefreshing] = React.useState(false);
+  const [refreshing, setRefreshing] = useState(false);
 
   const onRefresh = React.useCallback(() => {
     setRefreshing(true);
@@ -23,7 +22,9 @@ export default ({ navigation }) => {
   }, []);
 
   useEffect(() => {
-    setFeedInfos(jsonFile.data);
+    fetch(HJ_Feed_API)
+      .then((res) => res.json())
+      .then((res) => setFeedInfos(res.feed_list));
   }, []);
 
   return (

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Text, View, Pressable, StyleSheet, Image } from "react-native";
 import styled from "styled-components/native";
 import { AntDesign } from "@expo/vector-icons";
+import { timeForToday } from "../../constants/RealTime";
 
 function Comment({
   comments,
@@ -36,7 +37,7 @@ function Comment({
           <Text style={styles.bigFontSize}>{comment}</Text>
         </ContentContainer>
         <RowViewContainer>
-          <Text style={styles.smallFontSize}>{time}분전</Text>
+          <Text style={styles.smallFontSize}>{timeForToday(time)}</Text>
           <Pressable>
             <Text style={styles.smallFontSize}>신고</Text>
           </Pressable>

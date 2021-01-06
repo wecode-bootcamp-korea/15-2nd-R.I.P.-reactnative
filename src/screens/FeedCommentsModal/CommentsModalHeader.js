@@ -3,9 +3,7 @@ import { Text, View, Pressable, StyleSheet } from "react-native";
 import styled from "styled-components/native";
 import { AntDesign } from "@expo/vector-icons";
 
-function CommentsModalHeader(props) {
-  const { navigation } = props;
-
+function CommentsModalHeader({ navigation }) {
   return (
     <Header>
       <StyledPressable

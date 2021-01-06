@@ -12,7 +12,7 @@ function paddingSetter(a, b, c, d) {
 }
 
 function HeartAndComments(props) {
-  const { amountOfHearts, amountOfComments, navigation } = props;
+  const { reviewId, amountOfHearts, amountOfComments, navigation } = props;
   return (
     <View style={styles.heartAndComments}>
       <AntDesign name="hearto" size={24} color="black" paddingRight={16} />
@@ -22,10 +22,10 @@ function HeartAndComments(props) {
         size={24}
         color="black"
         onPress={() => {
-          navigation.navigate("FeedCommentsModal");
+          navigation.navigate("FeedCommentsModal", { reviewId: reviewId });
         }}
       />
-      <Text style={styles.text}>{amountOfComments}</Text>
+      <Text style={styles.text}>{amountOfComments.length}</Text>
     </View>
   );
 }
