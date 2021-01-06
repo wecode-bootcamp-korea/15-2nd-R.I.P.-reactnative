@@ -8,7 +8,7 @@ import MyScreen from "../screens/MyScreen/MyScreen";
 
 const Tabs = createBottomTabNavigator();
 
-export default ({ navigation }) => {
+export default () => {
   return (
     <Tabs.Navigator
       screenOptions={({ route }) => ({
@@ -41,12 +41,8 @@ export default ({ navigation }) => {
     >
       <Tabs.Screen name="Home" component={Home} />
       <Tabs.Screen name="Category" component={Category} />
-      <Tabs.Screen name="Feed" component={Feed} navigation={navigation} />
-      <Tabs.Screen
-        name="MyScreen"
-        component={MyScreen}
-        navigation={navigation}
-      />
+      <Tabs.Screen name="Feed" component={Feed} />
+      <Tabs.Screen name="MyScreen" component={MyScreen} />
     </Tabs.Navigator>
   );
 };

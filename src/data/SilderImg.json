@@ -1,0 +1,20 @@
+{
+  "silderImg": [
+    {
+      "id": 1,
+      "uri": "https://images.unsplash.com/photo-1609265875325-fa17bee068d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80"
+    },
+    {
+      "id": 2,
+      "uri": "https://images.unsplash.com/photo-1609349915355-9c132d7d09f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80"
+    },
+    {
+      "id": 3,
+      "uri": "https://images.unsplash.com/photo-1602595365147-b9b6ec8d2fa5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80"
+    },
+    {
+      "id": 4,
+      "uri": "https://images.unsplash.com/photo-1609075833548-f83d5d0d4ff6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80"
+    }
+  ]
+}
