@@ -1,32 +1,31 @@
-import React, { useState, useEffect } from "react";
-import {
-  Text,
-  ScrollView,
-  View,
-  Pressable,
-  TextInput,
-  Image,
-  StyleSheet,
-} from "react-native";
+import React, { useState } from "react";
+import { Image, StyleSheet } from "react-native";
 import styled from "styled-components/native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { HJ_API } from "../../config";
 
-function InputingComments(props) {
-  const { comments, setComments } = props;
+function InputingComments({ params, comments, setComments }) {
   const [inputingComment, setInputingComment] = useState("");
+  const [loginedUsername, setLoginedUsername] = useState("");
+  const [tokenValue, setTokenValue] = useState("");
+  AsyncStorage.getItem("nickname").then((res) => setLoginedUsername(res));
+  AsyncStorage.getItem("nickname").then((res) => setTokenValue(res));
 
   const AddComment = () => {
-    let fakeComments = [...comments];
-
-    fakeComments.push({
-      id: fakeComments[fakeComments.length - 1].id + 1,
-      userImgUrl:
-        "https://images.unsplash.com/photo-1520315342629-6ea920342047?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      userName: "박채훈",
-      comment: inputingComment,
-      time: "1",
+    console.log(comments);
+    fetch(`http://10.168.2.91:8000/board/feed/comment/${params}`, {
+      method: "POST",
+      // head: JSON.stringify({
+      //    token : tokenValue
+      //  }),
+      body: JSON.stringify({
+        // author_id: loginedUsername,
+        author_id: 1,
+        review_id: params,
+        contents: inputingComment,
+      }),
     });
 
-    setComments(fakeComments);
     setInputingComment("");
   };
 

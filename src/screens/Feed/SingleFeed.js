@@ -16,14 +16,14 @@ import HeartAndComments from "./HeartAndComments";
 export default (props) => {
   const {
     id,
-    userPhotoUrl,
-    username,
-    pastTime,
-    feedPhotoUrl,
-    reviewContent,
-    amountOfHearts,
-    amountOfComments,
-    className,
+    product_id,
+    nickname,
+    created_at,
+    feed_image,
+    contents,
+    product_name,
+    feed_like_count,
+    feed_comment_list,
   } = props.feedInfos;
   const [isReportModalActive, setIsReportModalActive] = useState(false);
 
@@ -75,22 +75,26 @@ export default (props) => {
 
       <FeedHeader
         style={styles.Header}
-        userPhotoUrl={userPhotoUrl}
-        username={username}
-        pastTime={pastTime}
+        userPhotoUrl={
+          "https://images.unsplash.com/photo-1584137210279-539d7c40dddf?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        }
+        username={nickname}
+        pastTime={created_at}
         setIsReportModalActive={setIsReportModalActive}
       />
       <FeedImgText
-        id={id}
-        feedPhotoUrl={feedPhotoUrl}
-        reviewContent={reviewContent}
-        className={className}
+        id={product_id}
+        style={styles.ImgText}
+        feedPhotoUrl={feed_image[0].url}
+        reviewContent={contents}
+        className={product_name}
         navigation={props.navigation}
       />
 
       <HeartAndComments
-        amountOfHearts={amountOfHearts}
-        amountOfComments={amountOfComments}
+        reviewId={id}
+        amountOfHearts={feed_like_count}
+        amountOfComments={feed_comment_list}
         navigation={props.navigation}
       />
     </View>

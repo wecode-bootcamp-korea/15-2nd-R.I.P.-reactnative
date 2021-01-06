@@ -1,26 +1,31 @@
 import React, { useState, useEffect } from "react";
-import { Text, ScrollView, View, Pressable, StyleSheet } from "react-native";
-import styled from "styled-components/native";
-import { AntDesign } from "@expo/vector-icons";
+import { View, StyleSheet } from "react-native";
 import CommentsModalHeader from "./CommentsModalHeader";
 import InputingComments from "./InputingComment";
 import Comments from "./Comments";
 
-const FAKECOMMENTS = require("../../data/comments.json");
-
-function FeedCommentsModal(props) {
-  const { navigation } = props;
+function FeedCommentsModal({ navigation, route }) {
   const [comments, setComments] = useState([]);
-
   useEffect(() => {
-    setComments(FAKECOMMENTS.comments);
-  }, []);
+    fetch(`http://10.168.2.91:8000/board/feed/comment/${route.params.reviewId}`)
+      .then((res) => res.json())
+      .then((res) => {
+        if (res.FEED_COMMENT_LIST !== comments) {
+          setComments(res.FEED_COMMENT_LIST);
+        }
+        return;
+      });
+  }, [comments]);
 
   return (
     <View style={styles.wholeContainer}>
       <CommentsModalHeader navigation={navigation} />
       <Comments comments={comments} setComments={setComments} />
-      <InputingComments comments={comments} setComments={setComments} />
+      <InputingComments
+        params={route.params.reviewId}
+        comments={comments}
+        setComments={setComments}
+      />
     </View>
   );
 }

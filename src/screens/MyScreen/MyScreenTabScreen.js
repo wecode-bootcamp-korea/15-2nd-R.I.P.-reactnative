@@ -15,7 +15,6 @@ const MyScreenTabScreen = () => (
 );
 
 export default MyScreenTabScreen;
-
 const Outline = styled.View`
   align-items: center;
   justify-content: center;
