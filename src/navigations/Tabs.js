@@ -42,7 +42,11 @@ export default ({ navigation }) => {
       <Tabs.Screen name="Home" component={Home} />
       <Tabs.Screen name="Category" component={Category} />
       <Tabs.Screen name="Feed" component={Feed} navigation={navigation} />
-      <Tabs.Screen name="MyScreen" component={MyScreen} />
+      <Tabs.Screen
+        name="MyScreen"
+        component={MyScreen}
+        navigation={navigation}
+      />
     </Tabs.Navigator>
   );
 };

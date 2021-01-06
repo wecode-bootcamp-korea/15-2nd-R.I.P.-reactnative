@@ -1,0 +1,25 @@
+{
+  "result": [
+    {
+      "backgroundColor": "#fee812",
+      "iconName": "chatbubble",
+      "iconColor": "black",
+      "BTNText": "카카오톡으로 시작",
+      "navigate": ""
+    },
+    {
+      "backgroundColor": "#9f40cf",
+      "iconName": "mail",
+      "iconColor": "white",
+      "BTNText": "이메일 가입",
+      "navigate": "SignUpGetUserInfo"
+    },
+    {
+      "backgroundColor": "black",
+      "iconName": "log-in",
+      "iconColor": "white",
+      "BTNText": "로그인",
+      "navigate": "Login"
+    }
+  ]
+}
