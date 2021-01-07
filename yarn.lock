@@ -1178,6 +1178,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@ishawnwang/withunmounted@^1.0.1":
+  "integrity" "sha512-epLHr/BfZZsWIXaBirrjKZKINsi/AgCr66VhlUjtP3IDq4v6kKphX4K8fAvHqN65qQMrkes1fMUzRnjFbLNKrQ=="
+  "resolved" "https://registry.npmjs.org/@ishawnwang/withunmounted/-/withunmounted-1.0.1.tgz"
+  "version" "1.0.1"
+
 "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz"

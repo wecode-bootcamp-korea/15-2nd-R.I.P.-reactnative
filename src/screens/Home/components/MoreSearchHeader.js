@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 import styled from "styled-components/native";
 import { WIDTH, HEIGHT } from "../../../constants/layout";
 
-const MoreSearchHeader = ({ navigation, setfilterInput, searchAcivity }) => {
+const MoreSearchHeader = ({ navigation, icon, isunAblebtn }) => {
   const handleBackbtn = () => {
     navigation.navigate("Home");
   };
@@ -11,8 +11,8 @@ const MoreSearchHeader = ({ navigation, setfilterInput, searchAcivity }) => {
   return (
     <HeaderOutline>
       <BackbtnView>
-        <Backbtn onPress={handleBackbtn}>
-          <Ionicons name="arrow-back-outline" size={24} color="black" />
+        <Backbtn onPress={handleBackbtn} disabled={isunAblebtn}>
+          <Ionicons name={icon} size={24} color="black" />
         </Backbtn>
       </BackbtnView>
       <SearchView>

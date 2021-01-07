@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TextInput } from "react-native";
 import styled from "styled-components/native";
-import { WIDTH } from "../../../constants/layout";
+import { WIDTH } from "../../../constants/Layout";
 
 const SignUpInput = ({
   placeholderValue,
