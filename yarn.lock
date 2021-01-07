@@ -5181,13 +5181,6 @@
   "resolved" "https://registry.npmjs.org/react-native-tab-view/-/react-native-tab-view-2.15.2.tgz"
   "version" "2.15.2"
 
-"react-native-web-swiper@^2.1.7":
-  "integrity" "sha512-u+fytrL1U5UAuEyjUYfDj2S8tK628Vspi8zZiF+oJ8avx8ktTd9it528ZxYC5DWnHzPYuSL6c/CPFIsk6chAJA=="
-  "resolved" "https://registry.npmjs.org/react-native-web-swiper/-/react-native-web-swiper-2.1.7.tgz"
-  "version" "2.1.7"
-  dependencies:
-    "prop-types" "^15.6.2"
-
 "react-native-web@~0.13.12", "react-native-web@~0.13.7":
   "integrity" "sha512-WR/0ECAmwLQ2+2cL2Ur+0/swXFAtcSM0URoADJmG6D4MnY+wGc91JO8LoOTlgY0USBOY+qG/beRrjFa+RAuOiA=="
   "resolved" "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.13.18.tgz"
