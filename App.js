@@ -9,7 +9,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function App() {
   const [isLoading, setLoading] = useState(true);
-  const [isLogin, setLogin] = useState(false);
+  const [isLogin, setLogin] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {

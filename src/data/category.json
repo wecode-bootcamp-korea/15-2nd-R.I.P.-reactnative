@@ -1,0 +1,77 @@
+{
+  "result": [
+    {
+      "id": "1",
+      "activityName": "🏃🏻‍♂️ 액티비티",
+      "activity": [
+        { "id": "1", "activeName": "아웃도어" },
+        { "id": "2", "activeName": "서핑" },
+        { "id": "3", "activeName": "스포츠" },
+        { "id": "4", "activeName": "수상레저" },
+        { "id": "5", "activeName": "테마파크" },
+        { "id": "6", "activeName": "워터파크∙스파" },
+        { "id": "7", "activeName": "투어∙관람" },
+        { "id": "8", "activeName": "공연∙전시" },
+        { "id": "9", "activeName": "실내체험" }
+      ]
+    },
+    {
+      "id": "2",
+      "activityName": "🍨 배움",
+      "activity": [
+        { "id": "1", "activeName": "공예∙DIY" },
+        { "id": "2", "activeName": "댄스" },
+        { "id": "3", "activeName": "요리" },
+        { "id": "4", "activeName": "음료" },
+        { "id": "5", "activeName": "언택트" },
+        { "id": "6", "activeName": "음악∙예술" },
+        { "id": "7", "activeName": "사진∙영상" },
+        { "id": "8", "activeName": "미술∙드로잉" },
+        { "id": "9", "activeName": "재테크" },
+        { "id": "10", "activeName": "투잡" },
+        { "id": "11", "activeName": "취업∙이직" },
+        { "id": "12", "activeName": "교양∙강좌" },
+        { "id": "13", "activeName": "아웃도어" },
+        { "id": "14", "activeName": "스포츠" }
+      ]
+    },
+    {
+      "id": "3",
+      "activityName": "💛 건강∙뷰티",
+      "activity": [
+        { "id": "1", "activeName": "피트니스" },
+        { "id": "2", "activeName": "요가" },
+        { "id": "3", "activeName": "필라테스" },
+        { "id": "4", "activeName": "뷰티" },
+        { "id": "5", "activeName": "스파∙마사지" },
+        { "id": "6", "activeName": "심리∙상담" }
+      ]
+    },
+    {
+      "id": "4",
+      "activityName": "🌴 제주여행",
+      "activity": [
+        { "id": "1", "activeName": "제주살기" },
+        { "id": "2", "activeName": "only프립" },
+        { "id": "3", "activeName": "제주시(공항 근처)" },
+        { "id": "4", "activeName": "서부(애월-한림-안덕)" },
+        { "id": "5", "activeName": "남부(서귀포-남원)" },
+        { "id": "6", "activeName": "동부(조천-성산-표선)" },
+        { "id": "7", "activeName": "직배송" }
+      ]
+    },
+    {
+      "id": "5",
+      "activityName": "🐿 내륙여행",
+      "activity": [
+        { "id": "1", "activeName": "강릉" },
+        { "id": "2", "activeName": "부산" },
+        { "id": "3", "activeName": "서울근교" },
+        { "id": "4", "activeName": "강원도" },
+        { "id": "5", "activeName": "경상도" },
+        { "id": "6", "activeName": "전라도" },
+        { "id": "7", "activeName": "충청도" }
+      ]
+    }
+  ]
+}

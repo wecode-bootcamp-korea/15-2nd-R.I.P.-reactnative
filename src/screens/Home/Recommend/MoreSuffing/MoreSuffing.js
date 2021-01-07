@@ -9,16 +9,24 @@ const MoreSuffing = ({ route, navigation }) => {
   const { surfingData } = route.params;
 
   return (
-    <ScrollView>
-      <MoreSearchHeader navigation={navigation} />
+    <MoreSuffingScrollView>
+      <MoreSearchHeader
+        navigation={navigation}
+        icon="arrow-back-outline"
+        isunAblebtn={false}
+      />
       <RIP
         isHomeCall={false}
         title="최신 RIP"
         navigation={navigation}
         surfingData={surfingData}
       />
-    </ScrollView>
+    </MoreSuffingScrollView>
   );
 };
 
 export default MoreSuffing;
+
+const MoreSuffingScrollView = styled.ScrollView`
+  background-color: #fff;
+`;
