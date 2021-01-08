@@ -3,24 +3,24 @@ import { View, Text } from "react-native";
 import RIP from "../components/RIP";
 import { GET_MAIN_DATA } from "../../../config";
 
-const Activity = ({ navigation }) => {
-  const [surfingData, setSurfingData] = useState("");
+const Trip = ({ navigation }) => {
+  const [tripData, setTripData] = useState("");
   useEffect(() => {
-    fetch(GET_MAIN_DATA("-price", 8))
+    fetch(GET_MAIN_DATA("-price", 13))
       .then((res) => res.json())
       .then((res) => {
-        setSurfingData(res.product_list);
+        setTripData(res.product_list);
       });
   }, []);
   return (
     <RIP
       navigation={navigation}
       isHomeCall={false}
-      title="서핑"
+      title="강릉여행"
       navigation={navigation}
-      mainData={surfingData}
+      mainData={tripData}
     />
   );
 };
 
-export default Activity;
+export default Trip;

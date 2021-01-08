@@ -5,24 +5,26 @@ import RecommendButton from "./RecommendButton";
 import Silder from "../components/Silder";
 import RIP from "../components/RIP";
 import SearchBar from "../components/SearchBar";
-import { GET_MAIN_DATA } from "../../../config";
+import { GET_MAIN_DATA, GET_RECOMMEND_DATA } from "../../../config";
 
 const recommendList = require("../../../data/recommendList.json");
 
 const Recommend = ({ navigation }) => {
-  const [surfingData, setSurfingData] = useState("");
+  const [recommendData, setRecommendData] = useState("");
+  const [topStarRate, setTopStarRate] = useState("");
 
   useEffect(() => {
-    getSufingData();
-  }, []);
-
-  const getSufingData = () => {
-    fetch(GET_MAIN_DATA("-price", 8, 0, 10))
+    fetch(GET_RECOMMEND_DATA("hit_count"))
       .then((res) => res.json())
       .then((res) => {
-        setSurfingData(res.product_list);
+        setRecommendData(res.product_list);
       });
-  };
+    fetch(GET_RECOMMEND_DATA("star_rating"))
+      .then((res) => res.json())
+      .then((res) => {
+        setTopStarRate(res.product_list);
+      });
+  }, []);
 
   return (
     <BackgroundSetting>
@@ -41,13 +43,18 @@ const Recommend = ({ navigation }) => {
       </FlexBox>
       <RIP
         isHomeCall={true}
-        title="최신 RIP"
+        title="가장 인기많은 RIP"
         navigation={navigation}
-        surfingData={surfingData}
+        mainData={recommendData}
       />
       <Silder ModifiedHeight={100} />
 
-      <RIP title="로그인" navigation={navigation} />
+      <RIP
+        isHomeCall={true}
+        title="별점이 높은 RIP"
+        navigation={navigation}
+        mainData={topStarRate}
+      />
       <Silder ModifiedHeight={400} ModifiedPadding={20} />
     </BackgroundSetting>
   );

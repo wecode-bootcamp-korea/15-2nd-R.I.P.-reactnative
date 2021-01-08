@@ -15,11 +15,15 @@ export default function App() {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
+    AsyncStorage.getItem("token", (err, item) => {
+      if (item) return setLogin(true);
+      if (!item) return setLogin(false);
+    });
   }, []);
 
   return isLoading ? (
     <Loading />
-  ) : AsyncStorage.getItem("token") ? (
+  ) : isLogin ? (
     <ThemeProvider theme={theme}>
       <NavigationContainer>
         <Stack />

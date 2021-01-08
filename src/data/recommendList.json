@@ -2,42 +2,42 @@
   "recommendList": [
     {
       "id": 1,
-      "uri": "https://images.unsplash.com/photo-1608585269273-5cacd36870f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "uri": "https://images.unsplash.com/photo-1526494631344-8c6fa6462b17?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "categoryName": "등산"
     },
     {
       "id": 2,
-      "uri": "https://images.unsplash.com/photo-1609044145014-8c0717f87516?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1542338347-4fff3276af78?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "categoryName": "심리∙상담"
     },
     {
       "id": 3,
-      "uri": "https://images.unsplash.com/photo-1608852744955-d2143bc106db?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1522065893269-6fd20f6d7438?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "categoryName": "DIY"
     },
     {
       "id": 4,
-      "uri": "https://images.unsplash.com/photo-1608549036505-ead5b1de5417?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1506368083636-6defb67639a7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
       "categoryName": "요리"
     },
     {
       "id": 5,
-      "uri": "https://images.unsplash.com/photo-1608202478747-d9c1fd21e269?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDYwfHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
       "categoryName": "밀키트"
     },
     {
       "id": 6,
-      "uri": "https://images.unsplash.com/photo-1608190016334-9293de3aa78e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDY0fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1508248839954-53aae05bddca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "categoryName": "랜선클럽"
     },
     {
       "id": 7,
-      "uri": "https://images.unsplash.com/photo-1607878455883-08baf3a6ad2b?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDc5fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2852&q=80",
       "categoryName": "프립VOD"
     },
     {
       "id": 8,
-      "uri": "https://images.unsplash.com/photo-1542996966-2e31c00bae31?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwNHx0b3dKWkZza3BHZ3x8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "uri": "https://images.unsplash.com/photo-1579169326371-ccb4e63f7889?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
       "categoryName": "제주도"
     }
   ]

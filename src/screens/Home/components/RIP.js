@@ -7,9 +7,9 @@ import RIPList from "./RIPList";
 
 const mostFavoriteRIP = require("../../../data/mostFavoriteRIP.json");
 
-const RIP = ({ navigation, surfingData, title, isHomeCall }) => {
+const RIP = ({ navigation, mainData, title, isHomeCall, moveScreen }) => {
   const handleMoreBtn = () => {
-    navigation.navigate("MoreSuffing", { surfingData: surfingData });
+    navigation.navigate("More", { mainData: mainData });
   };
 
   return (
@@ -24,11 +24,12 @@ const RIP = ({ navigation, surfingData, title, isHomeCall }) => {
         <DirectionChange>
           {isHomeCall ? (
             <CenteredText>
-              {surfingData &&
-                surfingData
+              {mainData &&
+                mainData
                   .map((list) => (
                     <RIPList
                       key={list.id}
+                      id={list.id}
                       address={list.image_url}
                       location={list.activity_address.slice(0, 2)}
                       description={list.subtitle}
@@ -42,10 +43,11 @@ const RIP = ({ navigation, surfingData, title, isHomeCall }) => {
             </CenteredText>
           ) : (
             <CenteredText>
-              {surfingData &&
-                surfingData.map((list) => (
+              {mainData &&
+                mainData.map((list) => (
                   <RIPList
                     key={list.id}
+                    id={list.id}
                     address={list.image_url}
                     location={list.activity_address.slice(0, 2)}
                     description={list.subtitle}
