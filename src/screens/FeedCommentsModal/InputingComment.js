@@ -12,8 +12,7 @@ function InputingComments({ params, comments, setComments }) {
   AsyncStorage.getItem("nickname").then((res) => setTokenValue(res));
 
   const AddComment = () => {
-    console.log(comments);
-    fetch(`http://10.168.2.91:8000/board/feed/comment/${params}`, {
+    fetch(`http://13.209.17.252:8000/board/feed/comment/${params}`, {
       method: "POST",
       // head: JSON.stringify({
       //    token : tokenValue
@@ -26,6 +25,17 @@ function InputingComments({ params, comments, setComments }) {
       }),
     });
 
+    const fakeComments = [...comments];
+    fakeComments.push({
+      id: 95,
+      product_id: params,
+      feed_id: params,
+      author: loginedUsername,
+      contents: inputingComment,
+      time: new Date(),
+    });
+
+    setComments(fakeComments);
     setInputingComment("");
   };
 

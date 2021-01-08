@@ -8,7 +8,6 @@ function Comment({
   comments,
   setComments,
   id,
-  userImgUrl,
   userName,
   comment,
   time,
@@ -28,7 +27,8 @@ function Comment({
       <Image
         style={styles.img}
         source={{
-          uri: userImgUrl,
+          uri:
+            "https://images.unsplash.com/photo-1520315342629-6ea920342047?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
         }}
       />
       <View>

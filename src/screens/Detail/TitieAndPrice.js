@@ -29,7 +29,7 @@ function TitleAndPrice({
         </Text>
       </PriceContainer>
       <Text style={styles.duration}>
-        유효기간:구매일로부터{expirationDate}일까지(음식의 경우에만 존재)
+        유효기간:구매일로부터{expirationDate}일까지
       </Text>
     </WholeContainer>
   );

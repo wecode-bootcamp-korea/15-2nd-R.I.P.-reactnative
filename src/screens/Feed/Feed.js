@@ -28,7 +28,7 @@ export default ({ navigation }) => {
   }, []);
 
   return (
-    <View>
+    <>
       <FeedHeader>
         <StyledText>프립피드</StyledText>
       </FeedHeader>
@@ -48,7 +48,7 @@ export default ({ navigation }) => {
           );
         })}
       </ScrollView>
-    </View>
+    </>
   );
 };
 

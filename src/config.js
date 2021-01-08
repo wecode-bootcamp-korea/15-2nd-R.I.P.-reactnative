@@ -10,4 +10,7 @@ export const GET_MAIN_DATA = (order, category) => {
 export const GET_RECOMMEND_DATA = (order) => {
   return `${API}/product/list?order=${order}`;
 };
-export const HJ_Feed_API = "http://10.168.2.91:8000/board/feed_list";
+export const HJ_Feed_API =
+  "http://13.209.17.252:8000/board/feed_list?limit=20&offset=0";
+export const Search_API = (query) =>
+  `${API}/product/list?order=-price&search_keyword=${query}`;

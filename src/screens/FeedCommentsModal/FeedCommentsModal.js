@@ -6,16 +6,30 @@ import Comments from "./Comments";
 
 function FeedCommentsModal({ navigation, route }) {
   const [comments, setComments] = useState([]);
+
   useEffect(() => {
-    fetch(`http://10.168.2.91:8000/board/feed/comment/${route.params.reviewId}`)
+    fetch(
+      `http://13.209.17.252:8000/board/feed/comment/${route.params.reviewId}`
+    )
       .then((res) => res.json())
       .then((res) => {
-        if (res.FEED_COMMENT_LIST !== comments) {
+        if (comments.length !== res.FEED_COMMENT_LIST.length) {
           setComments(res.FEED_COMMENT_LIST);
         }
-        return;
       });
   }, [comments]);
+
+  // const fetchCommentsData = () => {
+  //   fetch(
+  //     `http://13.209.17.252:8000/board/feed/comment/${route.params.reviewId}`
+  //   )
+  //     .then((res) => res.json())
+  //     .then((res) => {
+  //       if (comments.length !== res.FEED_COMMENT_LIST.length) {
+  //         setComments(res.FEED_COMMENT_LIST);
+  //       }
+  //     });
+  // };
 
   return (
     <View style={styles.wholeContainer}>
