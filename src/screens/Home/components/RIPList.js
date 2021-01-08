@@ -12,9 +12,10 @@ const RIPList = ({
   price,
   rate,
   navigation,
+  id,
 }) => {
   return (
-    <OutlineView onPress={() => navigation.navigate("Detail")}>
+    <OutlineView onPress={() => navigation.navigate("Details", { item: id })}>
       <ImgView>
         <DetailImg
           source={{

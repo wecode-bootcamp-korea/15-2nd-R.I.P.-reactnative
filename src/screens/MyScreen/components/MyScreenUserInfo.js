@@ -9,10 +9,11 @@ import {
   Image,
   TouchableHighlight,
   Modal,
+  nickName,
 } from "react-native";
 import { useState } from "react";
 
-const MyScreenUserInfo = ({ navigation }) => {
+const MyScreenUserInfo = ({ navigation, nickName }) => {
   const [modalVisible, setModalVisible] = useState(false);
 
   const Logout = () => {
@@ -50,7 +51,7 @@ const MyScreenUserInfo = ({ navigation }) => {
           </CenteredView>
         </Modal>
         <UserInfo>
-          <UserNickName>powerStrong</UserNickName>
+          <UserNickName>{nickName}</UserNickName>
           <LogoutBtn
             onPress={() => {
               setModalVisible(true);

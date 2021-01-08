@@ -1,17 +1,23 @@
 import React from "react";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import Activity from "../screens/Home/Activity/Activity";
+import Trip from "../screens/Home/Activity/Trip";
+import { HEIGHT } from "../constants/layout";
 
 const MiddleTab = ({ navigation }) => (
   <Tab.Navigator
     tabBarOptions={{
-      style: { backgroundColor: "powderblue" },
+      style: {
+        backgroundColor: "#0e74ef",
+      },
+      labelStyle: {
+        fontSize: 15,
+        color: "white",
+      },
     }}
   >
-    <Tab.Screen name="액티비티" component={Activity} navigation={navigation} />
-    <Tab.Screen name="배움" component={Activity} />
-    <Tab.Screen name="건강∙뷰티" component={Activity} />
-    <Tab.Screen name="모임" component={Activity} />
+    <Tab.Screen name="강릉여행" component={Trip} />
+    <Tab.Screen name="서핑" component={Activity} />
   </Tab.Navigator>
 );
 
