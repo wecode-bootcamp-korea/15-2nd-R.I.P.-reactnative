@@ -24,7 +24,7 @@
 - Back-end: Django, Python, MySQL, jwt, bcrypt
 
 ## 구현 기능
-
+초기세팅, 메인 페이지, 검색, 회원인증,
 
 ## 영상
 
@@ -36,6 +36,26 @@
  
 
 `한준희`
+
+Role : Team Member
+Position : Front-end
+Stack : React-native / Styled-Component 
+Works : 초기세팅 / 메인 페이지 / 검색 / 회원인증 
+프로젝트 후기 블로그 : 후기
+
+[초기세팅]
+- react navigation을 통한 stack 구현
+
+[메인 페이지]
+- 메인 페이지 레이아웃
+- 메인 페이지 슬라이더
+- 메인 페이지 상품 API 통신
+
+[검색]
+- api 통신을 통한 검색 구현
+
+[회원인증]
+- asyncStorage를 통한 회원가입,로그인,로그아웃
 
 
 >back-end
@@ -51,7 +71,7 @@
 ## 소감 및 후기
 - 박채훈: 
 
-- 한준희: 
+- 한준희: https://velog.io/@jjuny0113/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-react-native%EB%A1%9C-frip%EC%95%B1-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9
 
 - 이현주: 
 
