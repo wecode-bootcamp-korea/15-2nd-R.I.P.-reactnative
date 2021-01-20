@@ -14,7 +14,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 3000);
     AsyncStorage.getItem("token", (err, item) => {
       if (item) return setLogin(true);
       if (!item) return setLogin(false);

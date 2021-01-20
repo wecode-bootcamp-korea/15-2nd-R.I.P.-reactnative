@@ -85,7 +85,7 @@ export default (props) => {
       <FeedImgText
         id={product_id}
         style={styles.ImgText}
-        feedPhotoUrl={feed_image[0].url}
+        feedPhotoUrl={feed_image && feed_image[0].url}
         reviewContent={contents}
         className={product_name}
         navigation={props.navigation}

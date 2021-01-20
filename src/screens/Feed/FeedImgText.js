@@ -36,7 +36,7 @@ const StyledImage = styled.Image`
 `;
 
 const TextContainer = styled.View`
-  margin: 5px auto;
+  margin: 5px;
 `;
 
 const LinkToDetail = styled.Pressable`

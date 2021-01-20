@@ -15,7 +15,7 @@ const RIPList = ({
   id,
 }) => {
   return (
-    <OutlineView onPress={() => navigation.navigate("Details", { item: id })}>
+    <OutlineView onPress={() => navigation.navigate("Detail", { item: id })}>
       <ImgView>
         <DetailImg
           source={{

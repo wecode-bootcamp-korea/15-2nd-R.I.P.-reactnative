@@ -1,7 +1,7 @@
 import React from "react";
 import { Fontisto } from "@expo/vector-icons";
 import styled from "styled-components/native";
-import { HEIGHT } from "../../constants/Layout";
+import { HEIGHT } from "../../constants/layout";
 
 const MyScreenTabScreen = () => (
   <Outline>
