@@ -20,14 +20,29 @@
 - 기간: 2020.12.28 ~ 2020.01.08 (12일)
 
 ## 적용 기술
-- Front-end(React-native): React.native, hooks, navigation
+- Front-end(React-native): React.native, hooks, navigation, Styled Component
 - Back-end: Django, Python, MySQL, jwt, bcrypt
 
 ## 구현 기능
 
+- Feed 페이지  
+  1. 피드 하나를 재사용 가능하게 컴포넌트화 
+  2. ScrollView 와 map 을 통한 피드들 나열
+  3. 피드 페이지에서 제품 상세로 navigate 구현
+  
+- 신고하기 모달창
+  - 라이브러리 없이 <Modal> 컴포넌트만으로 구현
+  - 모달창이 올라올 때 배경은 Fade, 신고하기 버튼이 담긴 모달창은 slide 로 이중 모달창 구현 
 
-## 영상
-
+- 댓글 페이지 
+  1. 피드 페이지의 id에 따른 다른 댓글 모달창 구현
+  2. 로그인시에 받아온 토큰에서 가입 시에 등록하였던 닉네임을 댓글 추가할 때 사용
+  
+- 상품 상세 페이지
+  1. stack 을 쌓은 채로 피드 페이지에서 넘어오기
+  
+## 시연 영상
+https://www.youtube.com/watch?v=JflrODkMr1c&t=24s
 
 ## 개인 역할
 >front-end(React-native)
